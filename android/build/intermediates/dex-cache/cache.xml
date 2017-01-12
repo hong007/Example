@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Skipper/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/Users/Skipper/ReactNative/Example/android/app/build/intermediates/pre-dexed/debug/okio-1.9.0-4df47bf8207208744d8be57125b6e6f1509654ee.jar" />
+    </item>
+    <item
+        jar="/Users/Skipper/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/Skipper/ReactNative/Example/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0-8bb0cafe3eb6426904917bcb7dd971a82a46f586.jar" />
+    </item>
+    <item
+        jar="/Users/Skipper/ReactNative/Example/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3341b66c54367e777a0647e2db96c045329bfeab">
+        <dex dex="/Users/Skipper/ReactNative/Example/android/app/build/intermediates/pre-dexed/debug/classes-f7fc149a5c4e42c76402bfed7222017141e0fece.jar" />
+    </item>
+    <item
+        jar="/Users/Skipper/ReactNative/Example/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/Users/Skipper/ReactNative/Example/android/app/build/intermediates/pre-dexed/debug/classes-2da1757e74567221b47b642a85e86c9d227042e5.jar" />
+    </item>
+    <item
+        jar="/Users/Skipper/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="/Users/Skipper/ReactNative/Example/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.1-f57084fc63f59562ce47b4430f21e12b21e662a4.jar" />
+    </item>
+    <item
+        jar="/Users/Skipper/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/Users/Skipper/ReactNative/Example/android/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1-bdb509264b91c55a419d698255e3aac210bbe786.jar" />
+    </item>
+    <item
+        jar="/Users/Skipper/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/Skipper/ReactNative/Example/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0-c4e0bb11df67867a054c296545c918e376c0091e.jar" />
+    </item>
+    <item
+        jar="/Users/Skipper/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="/Users/Skipper/ReactNative/Example/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.4.1-e826b04f8d0ef23f452eb48cc546e6735bc52039.jar" />
+    </item>
+    <item
+        jar="/Users/Skipper/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/Skipper/ReactNative/Example/android/app/build/intermediates/pre-dexed/debug/library-2.4.0-df18beee589b473a8a47ab10ad262930fd719c41.jar" />
+    </item>
+    <item
+        jar="/Users/Skipper/ReactNative/Example/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="/Users/Skipper/ReactNative/Example/android/app/build/intermediates/pre-dexed/debug/classes-eea0300709940bba90a70cabf05b145ec1083038.jar" />
+    </item>
+    <item
+        jar="/Users/Skipper/ReactNative/Example/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/Skipper/ReactNative/Example/android/app/build/intermediates/pre-dexed/debug/classes-29cbe63209436fe03d0fe8edfdce87a29543575e.jar" />
+    </item>
+    <item
+        jar="/Users/Skipper/ReactNative/Example/android/app/build/intermediates/exploded-aar/org.webkit/android-jsc/r174650/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="12b885b3ed1fc74a51f671ad40867aa91271843d">
+        <dex dex="/Users/Skipper/ReactNative/Example/android/app/build/intermediates/pre-dexed/debug/classes-9f67301193de61c1961c9dca4325ee8400896f92.jar" />
+    </item>
+    <item
+        jar="/Users/Skipper/ReactNative/Example/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2b8a01ad9da5d26d0067894c22e87597bca2c500">
+        <dex dex="/Users/Skipper/ReactNative/Example/android/app/build/intermediates/pre-dexed/debug/classes-a838d9ec722725fb20294817426b9a347fd85a88.jar" />
+    </item>
+    <item
+        jar="/Users/Skipper/ReactNative/Example/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1137942adeb03984c1311b662363dd38fc238fd3">
+        <dex dex="/Users/Skipper/ReactNative/Example/android/app/build/intermediates/pre-dexed/debug/classes-1a91f50b54a1e49c621d1454e94a868dea61d9a4.jar" />
+    </item>
+    <item
+        jar="/Users/Skipper/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="/Users/Skipper/ReactNative/Example/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.4.1-b40ad80a39411a1a0104b8f1f9ec5df14a2cfa2d.jar" />
+    </item>
+    <item
+        jar="/Users/Skipper/ReactNative/Example/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
+        <dex dex="/Users/Skipper/ReactNative/Example/android/app/build/intermediates/pre-dexed/debug/classes-a7951fe3c1975a28ce91aaf11d0aa38e0388676f.jar" />
+    </item>
+    <item
+        jar="/Users/Skipper/ReactNative/Example/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="/Users/Skipper/ReactNative/Example/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.1-03170696d889fb8c18144fde0b01b52565801c25.jar" />
+    </item>
+    <item
+        jar="/Users/Skipper/ReactNative/Example/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="98786c1770b531b9194fb6448b2a2692c64074b6">
+        <dex dex="/Users/Skipper/ReactNative/Example/android/app/build/intermediates/pre-dexed/debug/classes-129f485bc1e3bc77ba83121dd187b727394e8fc3.jar" />
+    </item>
+    <item
+        jar="/Users/Skipper/.gradle/caches/modules-2/files-2.1/com.adobe.xmp/xmpcore/5.1.2/55615fa2582424e38705487d1d3969af8554f637/xmpcore-5.1.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="55615fa2582424e38705487d1d3969af8554f637">
+        <dex dex="/Users/Skipper/ReactNative/Example/android/app/build/intermediates/pre-dexed/debug/xmpcore-5.1.2-e60f1de138cea6725cbf1fa0259e2be83a8cb057.jar" />
+    </item>
+    <item
+        jar="/Users/Skipper/ReactNative/Example/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ca63c521b5745ae9a09629d7ca67ff6bc2a967fe">
+        <dex dex="/Users/Skipper/ReactNative/Example/android/app/build/intermediates/pre-dexed/debug/classes-c82668365df6a5a2e5ffb5dedaf21bea83c3cbcb.jar" />
+    </item>
+    <item
+        jar="/Users/Skipper/ReactNative/Example/android/app/build/intermediates/exploded-aar/Example/react-native-camera/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="495d966d443f09ff297a9031ed232e7dd1d37183">
+        <dex dex="/Users/Skipper/ReactNative/Example/android/app/build/intermediates/pre-dexed/debug/classes-b4417d45874c68189dc9339fb18ce2edd9c056d6.jar" />
+    </item>
+    <item
+        jar="/Users/Skipper/ReactNative/Example/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/Skipper/ReactNative/Example/android/app/build/intermediates/pre-dexed/debug/classes-070cbe0fa3d133670c8884a3efacba8158749f46.jar" />
+    </item>
+    <item
+        jar="/Users/Skipper/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.3/1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14/jackson-core-2.2.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
+        <dex dex="/Users/Skipper/ReactNative/Example/android/app/build/intermediates/pre-dexed/debug/jackson-core-2.2.3-bbee4fc403474f7f3fd15a9f8dbff6774604a3a5.jar" />
+    </item>
+    <item
+        jar="/Users/Skipper/.gradle/caches/modules-2/files-2.1/com.drewnoakes/metadata-extractor/2.9.1/53fdf22be10c9d426ec63431c7342895bc642261/metadata-extractor-2.9.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="53fdf22be10c9d426ec63431c7342895bc642261">
+        <dex dex="/Users/Skipper/ReactNative/Example/android/app/build/intermediates/pre-dexed/debug/metadata-extractor-2.9.1-432df34b8af86a9ba57a53fcc92b7864d739a520.jar" />
+    </item>
+    <item
+        jar="/Users/Skipper/ReactNative/Example/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.34.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="24959c1d0b0991e7d0d42ab7bd7e7d68b2c3e679">
+        <dex dex="/Users/Skipper/ReactNative/Example/android/app/build/intermediates/pre-dexed/debug/classes-394f1e9e054bb58f0bf5cd517824668ce1074e2f.jar" />
+    </item>
+    <item
+        jar="/Users/Skipper/ReactNative/Example/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.34.1/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="085d4b604a91b790ed60ccf219b0c30c9db7d9ea">
+        <dex dex="/Users/Skipper/ReactNative/Example/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5-6eacaee3dee017d941b234fd2d02dc408bf83e3b.jar" />
+    </item>
+    <item
+        jar="/Users/Skipper/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.2.1/2287494d4f5f9f3a9a2bb6980e3f32053721b315/core-3.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="/Users/Skipper/ReactNative/Example/android/app/build/intermediates/pre-dexed/debug/core-3.2.1-b121167566af452bb3f2c0f92bd156d3574d7dc9.jar" />
+    </item>
+    <item
+        jar="/Users/Skipper/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/Skipper/ReactNative/Example/android/app/build/intermediates/pre-dexed/debug/javax.inject-1-044bb517882558a181b68eb27c297c2d79b55caa.jar" />
+    </item>
+
+</items>
