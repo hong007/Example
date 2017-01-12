@@ -61,6 +61,7 @@ export default class Example extends React.Component {
     this.camera = null;
 
     this.state = {
+      isBarCodeScann:false,
       camera: {
         aspect: Camera.constants.Aspect.fill,
         captureTarget: Camera.constants.CaptureTarget.cameraRoll,
@@ -83,8 +84,8 @@ export default class Example extends React.Component {
   startRecording = () => {
     if (this.camera) {
       this.camera.capture({mode: Camera.constants.CaptureMode.video})
-          .then((data) => console.log(data))
-          .catch(err => console.error(err));
+        .then((data) => console.log(data))
+        .catch(err => console.error(err));
       this.setState({
         isRecording: true
       });
@@ -102,7 +103,7 @@ export default class Example extends React.Component {
 
   switchType = () => {
     let newType;
-    const { back, front } = Camera.constants.Type;
+    const {back, front} = Camera.constants.Type;
 
     if (this.state.camera.type === back) {
       newType = front;
@@ -120,7 +121,7 @@ export default class Example extends React.Component {
 
   get typeIcon() {
     let icon;
-    const { back, front } = Camera.constants.Type;
+    const {back, front} = Camera.constants.Type;
 
     if (this.state.camera.type === back) {
       icon = require('./assets/ic_camera_rear_white.png');
@@ -133,7 +134,7 @@ export default class Example extends React.Component {
 
   switchFlash = () => {
     let newFlashMode;
-    const { auto, on, off } = Camera.constants.FlashMode;
+    const {auto, on, off} = Camera.constants.FlashMode;
 
     if (this.state.camera.flashMode === auto) {
       newFlashMode = on;
@@ -153,7 +154,7 @@ export default class Example extends React.Component {
 
   get flashIcon() {
     let icon;
-    const { auto, on, off } = Camera.constants.FlashMode;
+    const {auto, on, off} = Camera.constants.FlashMode;
 
     if (this.state.camera.flashMode === auto) {
       icon = require('./assets/ic_flash_auto_white.png');
@@ -164,6 +165,25 @@ export default class Example extends React.Component {
     }
 
     return icon;
+  }
+
+  onBarCodeRead = (e)=> {
+    let _this = this;
+    if (e.data != '') {
+      console.log('这下你不嘚瑟了吧', e.data);
+      // 只扫一次
+      // if (this.state.isBarCodeScann) {
+      //   return true;
+      // } else {
+        this.setState({
+          isBarCodeScann: true,
+        });
+        alert('扫码结果是'+e.data)
+        // DeviceEventEmitter.emit("changeBarCode", e.data);
+        console.log('有没有执行');
+        // this.props.navigator.pop();
+      // }
+    }
   }
 
   render() {
@@ -182,6 +202,7 @@ export default class Example extends React.Component {
           captureTarget={this.state.camera.captureTarget}
           type={this.state.camera.type}
           flashMode={this.state.camera.flashMode}
+          onBarCodeRead={this.onBarCodeRead}
           defaultTouchToFocus
           mirrorImage={false}
         />
@@ -208,37 +229,37 @@ export default class Example extends React.Component {
             !this.state.isRecording
             &&
             <TouchableOpacity
-                style={styles.captureButton}
-                onPress={this.takePicture}
+              style={styles.captureButton}
+              onPress={this.takePicture}
             >
               <Image
-                  source={require('./assets/ic_photo_camera_36pt.png')}
+                source={require('./assets/ic_photo_camera_36pt.png')}
               />
             </TouchableOpacity>
             ||
             null
           }
-          <View style={styles.buttonsSpace} />
+          <View style={styles.buttonsSpace}/>
           {
-              !this.state.isRecording
-              &&
-              <TouchableOpacity
-                  style={styles.captureButton}
-                  onPress={this.startRecording}
-              >
-                <Image
-                    source={require('./assets/ic_videocam_36pt.png')}
-                />
-              </TouchableOpacity>
-              ||
-              <TouchableOpacity
-                  style={styles.captureButton}
-                  onPress={this.stopRecording}
-              >
-                <Image
-                    source={require('./assets/ic_stop_36pt.png')}
-                />
-              </TouchableOpacity>
+            !this.state.isRecording
+            &&
+            <TouchableOpacity
+              style={styles.captureButton}
+              onPress={this.startRecording}
+            >
+              <Image
+                source={require('./assets/ic_videocam_36pt.png')}
+              />
+            </TouchableOpacity>
+            ||
+            <TouchableOpacity
+              style={styles.captureButton}
+              onPress={this.stopRecording}
+            >
+              <Image
+                source={require('./assets/ic_stop_36pt.png')}
+              />
+            </TouchableOpacity>
           }
         </View>
       </View>
